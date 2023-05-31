@@ -1,0 +1,168 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="./index.html"><img src="./assets/img/vuelaya.png" alt=""></a>
+
+        </div>
+        
+            <nav>
+                <ul class="navbar">
+                    <li><a href="./page/reserva_servicios.html">Reservar</a></li>
+                    <li><a href="./page/asistencia.html">Servicios</a></li>
+                    <li><a href="">Informacion</a></li>
+
+                </ul>
+            </nav>
+        
+
+    </header>
+    <main>
+        <section class="busquedaVuelos">
+            
+                
+                <div class = "seccion-principal">
+                    <h1>Tu destino mas cerca!</h1>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" name="tipo" id="ida">
+                    <label for="ida">Ida</label>
+
+                    <input type="radio" name="tipo" id="ida_vuelta">
+                    <label for="ida_vuelta">Ida y Vuelta</label>
+
+                    <input type="radio" name="tipo" id="multidestino">
+                    <label for="multidestino">Multidestino</label>
+                </div>
+                <fieldset>
+                    <div class="buscarVuelos">
+                        <label for="origen">Origen</label>
+                        <input type="text" id="origen" placeholder="Origen" required>
+                        <label for="destino">Destino</label>
+                        <input type="text" id="destino" placeholder="Destino" required>
+                        <label for="fecha">Fecha</label>
+                        <input type="date" id="fecha" placeholder="Fecha" required>
+                        <label for="pasajeros">Pasajeros</label>
+                        <input type="number" id="pasajeros" placeholder="Pasajeros" min="1" max="9" required>
+                        <label for="clase">Clase</label>
+                        <select id="clase" name="clase" value="Elija clase">
+                            <option>Economica</option>
+                            <option>Premium Economica</option>
+                            <option>Ejecutiva</option>
+                            <option>Primera clase</option>
+
+                        </select>
+                    </div>
+                </fieldset>
+                <input type="submit" value="Buscar Vuelo">
+                
+
+            
+
+        </section>
+        <div class="columna">
+            <section class="vuelos">
+
+            
+                <img src="./assets/img/image1.png" alt="">
+                
+                    <div class="ida">
+                        <h3>IDA</h3>
+                        <h3>mar.25 sep.2023</h3>
+                        <h3>22:50 - Directo</h3>
+                    </div>
+                    <div class="vuelta">
+                        <h3>VUELTA</h3>
+                        <h3>mar.3 oct.2023</h3>
+                        <h3>6:00 - Directo</h3>
+                    </div>
+                
+                
+                <div>
+                    <h3>5 días</h3>
+                </div>
+                <div class="detallees">
+                    <h3>$360.000</h3>
+                    
+                    <a href=""><img src="./assets/img/detalle.png" alt=""></a>
+                </div>
+            
+
+
+        </section>
+        <section class="vuelos">
+
+            
+            <img src="./assets/img/image1.png" alt="">
+            <div class="ida">
+                <h3>IDA</h3>
+                <h3>mar.25 sep.2023</h3>
+                <h3>22:50 - Directo</h3>
+            </div>
+            <div class="vuelta">
+                <h3>VUELTA</h3>
+                <h3>mar.3 oct.2023</h3>
+                <h3>6:00 - Directo</h3>
+            </div>
+            <div>
+                <h3>5 días</h3>
+            </div>
+            <div class="detallees">
+                <h3>$360.000</h3>
+                
+                <a href=""><img src="./assets/img/detalle.png" alt=""></a>
+            </div>
+        
+
+
+    </section>
+        </div>
+        
+    </main>
+    <footer>
+        <section class="encontra">
+            <div>
+                <h2>Encontranos</h2>
+                <ul>
+                    <li>Av. Costanera Rafael Obligado s/n, C1425 CABA</li>
+                    <li>AU Tte. Gral. Pablo Riccheri Km 33,5, B1802 Ezeiza, Provincia de Buenos Aires</li>
+                </ul>
+            </div>
+        </section>
+        <section class="comunica">
+            <div>
+                <h2>Comunicate</h2>
+                <ul>
+                    <li><img src="./assets/img/whatsapp.png" alt=""></li>
+                    <li><img src="./assets/img/instagram.png" alt=""></li>
+                    <li><img src="./assets/img/gorjeo.png" alt=""></li>
+                </ul>
+            </div>
+        </section>
+
+
+    </footer>
+
+
+</body>
+
+</html>
