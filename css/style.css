@@ -8,12 +8,10 @@
 font-family: 'Inter', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
-
 header {
     display: flex;
     justify-content: space-between;
     background-color: #3C486B;
-
 }
 
 header div img {
@@ -37,7 +35,6 @@ nav {
     display: flex;
     list-style: none;
     gap: 20px;
-
 }
 
 footer {
@@ -87,8 +84,6 @@ h1 {
     font-family: 'Inter', sans-serif;
 }
 
-
-
 .columna {
     display: flex;
     flex-direction: column;
@@ -96,7 +91,6 @@ h1 {
     justify-content: center;
     gap: 20px;
     padding: 20px;
-
 }
 
 .fila {
@@ -106,12 +100,9 @@ h1 {
     justify-content: center;
     gap: 5%;
     padding: 30px;
-
-
 }
 
 .vuelos {
-
     display: flex;
     gap: 10%;
     align-items: center;
@@ -119,8 +110,6 @@ h1 {
     justify-content: center;
     width: 75%;
     height: 100px;
-
-
 }
 
 .presentacion {
@@ -128,7 +117,6 @@ h1 {
     justify-content: space-between;
     align-items: center;
     gap: 75px;
-
 }
 
 .vuelos img {
@@ -138,7 +126,6 @@ h1 {
 .vuelos h3 {
     font-size: 15px;
 }
-
 
 .seccion-principal {
     width: 100%;
@@ -160,8 +147,6 @@ fieldset {
     flex-direction: row;
 }
 
-
-
 input {
     align-items: center;
     justify-content: center;
@@ -172,28 +157,19 @@ input {
 }
 
 .galeria {
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas:
-
-        "img1 img2 img3"
-        "img1 img2 img3"
-
-
-    ;
+    grid-template-areas: "img1 img2 img3"
+        "img1 img2 img3";
     justify-content: center;
     align-items: center;
-
 }
 
 .mensaje {
     justify-content: center;
     background-color: beige;
 }
-
-
 
 .galeria img {
     object-fit: cover;
@@ -215,7 +191,6 @@ input {
 
 .imagenh {
     width: 250px;
-
 }
 
 .hoteles {
@@ -233,8 +208,6 @@ input {
 p {
     font-family: 'Roboto', sans-serif;
 }
-
-
 
 .puntuacion {
     background-color: #03A691;
@@ -268,7 +241,6 @@ p {
 
 .asiste {
     object-fit: cover;
-
     background-color: #ececec;
     justify-content: center;
     align-items: center;
@@ -283,16 +255,13 @@ p {
     display: flex;
     align-items: center;
     gap: 20px;
-
 }
 
 .detalle {
     display: flex;
     justify-content: center;
     gap: 30px;
-
 }
-
 
 .vehiculo {
     background-color: #ececec;
@@ -324,8 +293,7 @@ p {
     width: 150px;
 }
 
-@media(max-width: 320px) {
-
+@media (max-width: 320px) {
     .navbar {
         flex-direction: column;
         align-items: center;
@@ -335,17 +303,14 @@ p {
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
-
     }
 
     .galeria {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 3fr);
-        grid-template-areas:
-            "img1"
+        grid-template-areas: "img1"
             "img2"
-            "img3"
-        ;
+            "img3";
     }
 
     footer {
@@ -375,9 +340,7 @@ p {
         align-items: center;
     }
 
-
     .vuelos {
-
         display: flex;
         width: 100%;
         gap: 4px;
@@ -389,17 +352,14 @@ p {
 
     .vuelos img {
         width: 50px;
-
     }
 
     .vuelos h3 {
         font-size: 12px;
-
     }
 
     .fila {
         flex-direction: column;
-
     }
 
     .asiste {
@@ -408,7 +368,6 @@ p {
         width: 100%;
         object-fit: cover;
         margin: 5px;
-
     }
 
     .asiste img {
@@ -420,26 +379,21 @@ p {
         width: 100%;
         padding: 5px;
         flex-direction: column;
-
     }
-
-    
 
     .hoteles img {
         width: 100px;
         justify-content: bottom;
-
     }
 
-    .vehiculo{
+    .vehiculo {
         flex-direction: column;
         font-size: 12px;
         width: 100%;
         padding: 5px;
     }
-    .ef{
+
+    .ef {
         width: 100px;
     }
-
-
 }

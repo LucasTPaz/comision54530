@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3C486B;
+
+}
+
+header div img {
+    width: 150px;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #ECECEC;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+
+footer {
+    height: 200px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    background-color: #3C486B;
+    gap: 50px;
+    color: aliceblue;
+    padding: 10px;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+}
+
+.buscarVuelos {
+    font-family: 'Inter', sans-serif;
+}
+
+.radio {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.encontra {
+    font-family: 'Inter', sans-serif;
+}
+
+.comunica {
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.fila {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    padding: 30px;
+
+
+}
+
+.vuelos {
+
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    background-color: #ECECEC;
+    justify-content: center;
+    width: 75%;
+    height: 100px;
+
+
+}
+
+.presentacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 75px;
+
+}
+
+.vuelos img {
+    width: 100px;
+}
+
+.vuelos h3 {
+    font-size: 15px;
+}
+
+
+.seccion-principal {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    font-size: 30px;
+}
+
+fieldset {
+    display: flex;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    gap: 10px;
+    flex-direction: row;
+}
+
+
+
+input {
+    align-items: center;
+    justify-content: center;
+}
+
+.detallees {
+    width: 150px;
+}
+
+.galeria {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+
+        "img1 img2 img3"
+        "img1 img2 img3"
+
+
+    ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mensaje {
+    justify-content: center;
+    background-color: beige;
+}
+
+
+
+.galeria img {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.img1 {
+    grid-area: img1;
+}
+
+.img2 {
+    grid-area: img2;
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.imagenh {
+    width: 250px;
+
+}
+
+.hoteles {
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    background-color: #ECECEC;
+    justify-content: center;
+    width: 90%;
+    height: 250px;
+    gap: 15px;
+    margin: 2px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.puntuacion {
+    background-color: #03A691;
+    width: 22px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+
+.container img {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+}
+
+.asiste {
+    object-fit: cover;
+
+    background-color: #ececec;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+}
+
+.ua {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.detalle {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+
+.vehiculo {
+    background-color: #ececec;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 75%;
+    height: 40%;
+    gap: 20px;
+}
+
+.vehiculo div ol {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.coche img {
+    width: 150px;
+}
+
+.ai {
+    display: flex;
+    gap: 20px;
+}
+
+.ef {
+    width: 150px;
+}
+
+@media(max-width: 320px) {
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .galeria {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 3fr);
+        grid-template-areas:
+            "img1"
+            "img2"
+            "img3"
+        ;
+    }
+
+    footer {
+        padding: 5px;
+    }
+
+    footer li {
+        font-size: 12px;
+    }
+
+    footer img {
+        width: 24px;
+    }
+
+    footer h2 {
+        font-size: 16px;
+    }
+
+    .seccion-principal {
+        font-size: 18px;
+    }
+
+    fieldset {
+        width: 100%;
+        flex-direction: column;
+        height: 150px;
+        align-items: center;
+    }
+
+
+    .vuelos {
+
+        display: flex;
+        width: 100%;
+        gap: 4px;
+    }
+
+    .fechass {
+        flex-direction: row;
+    }
+
+    .vuelos img {
+        width: 50px;
+
+    }
+
+    .vuelos h3 {
+        font-size: 12px;
+
+    }
+
+    .fila {
+        flex-direction: column;
+
+    }
+
+    .asiste {
+        padding: 4px;
+        font-size: 12px;
+        width: 100%;
+        object-fit: cover;
+        margin: 5px;
+
+    }
+
+    .asiste img {
+        width: 75px;
+    }
+
+    .hoteles {
+        font-size: 12px;
+        width: 100%;
+        padding: 5px;
+        flex-direction: column;
+
+    }
+
+    
+
+    .hoteles img {
+        width: 100px;
+        justify-content: bottom;
+
+    }
+
+    .vehiculo{
+        flex-direction: column;
+        font-size: 12px;
+        width: 100%;
+        padding: 5px;
+    }
+    .ef{
+        width: 100px;
+    }
+
+
+}
