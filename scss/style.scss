@@ -4,15 +4,19 @@
     box-sizing: border-box;
 }
 
+$ca: #3C486B;
+$cb:#ECECEC;
+$cv:#03A691;
+
 /**
 font-family: 'Inter', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
-header {
+@mixin header(){
     display: flex;
     justify-content: space-between;
-    background-color: #3C486B;
+    background-color: $ca;
 
 }
 
@@ -29,7 +33,7 @@ nav {
 
 .navbar li a {
     text-decoration: none;
-    color: #ECECEC;
+    color: $cb;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -45,7 +49,7 @@ footer {
     display: flex;
     list-style: none;
     align-items: center;
-    background-color: #3C486B;
+    background-color: $ca;
     gap: 50px;
     color: aliceblue;
     padding: 10px;
@@ -115,7 +119,7 @@ h1 {
     display: flex;
     gap: 10%;
     align-items: center;
-    background-color: #ECECEC;
+    background-color: $cb;
     justify-content: center;
     width: 75%;
     height: 100px;
@@ -222,7 +226,7 @@ input {
     object-fit: contain;
     display: flex;
     align-items: center;
-    background-color: #ECECEC;
+    background-color: $cb;
     justify-content: center;
     width: 90%;
     height: 250px;
@@ -237,7 +241,7 @@ p {
 
 
 .puntuacion {
-    background-color: #03A691;
+    background-color: $cv;
     width: 22px;
 }
 
@@ -269,7 +273,7 @@ p {
 .asiste {
     object-fit: cover;
 
-    background-color: #ececec;
+    background-color: $cb;
     justify-content: center;
     align-items: center;
     width: 25%;
@@ -295,7 +299,7 @@ p {
 
 
 .vehiculo {
-    background-color: #ececec;
+    background-color: $cb;
     justify-content: center;
     align-items: center;
     display: flex;
